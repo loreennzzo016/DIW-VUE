@@ -1,0 +1,62 @@
+/* Variables de colores */
+:root {
+    --primary: #4361ee;
+    --secondary: #3a0ca3;
+    --success: #4cc9f0;
+    --warning: #f72585;
+    --info: #7209b7;
+    --light: #f8f9fa;
+    --dark: #212529;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fb;
+}
+
+/* Estilos personalizados */
+.book-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.status-available {
+    border-left: 5px solid #28a745;
+}
+
+.status-borrowed {
+    border-left: 5px solid #ffc107;
+}
+
+.status-pending {
+    border-left: 5px solid #dc3545;
+}
+
+/* Header y navegación */
+.navbar-brand {
+    font-weight: 600;
+    color: var(--primary) !important;
+}
+
+/* Botones personalizados */
+.btn-custom {
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(67, 97, 238, 0.3);
+    color: white;
+}

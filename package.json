@@ -1,0 +1,24 @@
+{
+  "name": "vue-bootstrap-library",
+  "version": "1.0.0",
+  "description": "Aplicación Vue.js con Bootstrap para gestión de libros",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "vite": "^5.0.0"
+  }
+}
