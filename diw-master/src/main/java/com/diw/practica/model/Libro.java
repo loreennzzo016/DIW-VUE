@@ -77,7 +77,7 @@ public class Libro {
      * para evitar cargar el usuario hasta que sea necesario.
      * </p>
      */
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "usuario_id")
     @JsonBackReference (value = "usuario-libros")
     private Usuario prestadoA;
